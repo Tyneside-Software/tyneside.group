@@ -790,6 +790,18 @@
   border-color: #f59e0b;
 }
 
+.theme-group .portal-card.portal-shop {
+  border-top-color: #ff4da6;
+  background: linear-gradient(165deg, rgba(37, 99, 235, 0.45) 0%, rgba(219, 39, 119, 0.35) 100%);
+}
+.theme-group .portal-card.portal-shop .portal-kicker,
+.theme-group .portal-card.portal-shop .portal-go { color: #fda4af; }
+.theme-group .portal-card.portal-shop h3 { color: #fff; }
+.theme-group .portal-card.portal-shop:hover {
+  box-shadow: 0 18px 44px rgba(255, 77, 166, 0.32);
+  border-color: #ff4da6;
+}
+
 .theme-group .portal-card.portal-next {
   border-top-style: dashed;
   border-top-color: #86efac;
@@ -913,6 +925,7 @@
 .theme-group .portal-pill.pill-technology { border-color: #f59e0b; color: #fbbf24; }
 .theme-group .portal-pill.pill-games { border-color: #00ff66; color: #00ff66; }
 .theme-group .portal-pill.pill-logistics { border-color: #ea580c; color: #fdba74; }
+.theme-group .portal-pill.pill-shop { border-color: #ff4da6; color: #fda4af; }
 .theme-group .portal-pill.pill-next { border-style: dashed; border-color: #4ade80; color: #86efac; }
 
 .theme-group .loop-row {
